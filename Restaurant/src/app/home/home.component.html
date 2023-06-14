@@ -1,0 +1,26 @@
+<!-- <app-search></app-search> -->
+<div class="container">
+    <!-- <div class="foodBox p-2"> -->
+        <h3 class="text-center mb-3 title">Popular Categories</h3>
+        <div class="row justify-content-center" *ngIf="searchData">
+            <owl-carousel-o [options]="customOptions">
+                <ng-template carouselSlide class="col" *ngFor="let food of searchData">
+                    <div (click)="onClickFood(food.id)">
+                        <div class="card menuCard">
+                            <img src="{{food.menu_img}}" class="card-img-top menuImg" alt="...">
+                            <div class="menuName">
+                                {{food.name}}
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+            </owl-carousel-o>
+        </div>
+    <!-- </div> -->
+</div>
+
+
+<app-foodpage></app-foodpage>
+<!-- <div class="menu-container">
+    <button class="menu-btn" routerLink="/">Menu</button>
+</div>  -->

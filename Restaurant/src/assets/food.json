@@ -1,0 +1,262 @@
+{
+    "menu": [
+      {
+        "id": "326",
+        "name": "TEETOTALLER",
+        "menu_img":"/assets/foodImg/img1.jpg",
+        "lineItems": [
+          {
+            "id": "849",
+            "name": "FLAVOURED MOJITO ",
+            "price": "149"
+          },
+          {
+            "id": "850",
+            "name": "WONDERFUL DAY                                ",
+            "price": "195"
+          },
+          {
+            "id": "851",
+            "name": "COCA COLA",
+            "price": "195"
+          },
+          {
+            "id": "852",
+            "name": "THUMBS UP",
+            "price": "195"
+          },
+          {
+            "id": "853",
+            "name": "THE RESOLUTION",
+            "price": "195"
+          }
+        ],
+        "imgKey": "bottle"
+      },
+      {
+        "id": "328",
+        "name": "THANDA",
+        "menu_img":"/assets/foodImg/img2.jpg",
+        "lineItems": [
+          {
+            "id": "870",
+            "name": "ANANAS KA PANNA",
+            "price": "160"
+          },
+          {
+            "id": "871",
+            "name": "BADAMI THANDAI",
+            "price": "160"
+          },
+          {
+            "id": "873",
+            "name": "CHANDAN SHERBAT ",
+            "price": "150"
+          },
+          {
+            "id": "874",
+            "name": "MALAIDAR LASSI",
+            "price": "150"
+          },
+          {
+            "id": "875",
+            "name": "MASALA CHAAS",
+            "price": "115"
+          },
+          {
+            "id": "876",
+            "name": "JALJEERA ",
+            "price": "115"  
+          }
+        ],
+        "imgKey": "juice"
+      },
+      {
+        "id": "327",
+        "name": "QUENCHERS",
+        "menu_img":"/assets/foodImg/img3.jpg",
+        "lineItems": [
+          {
+            "id": "862",
+            "name": "ARETED WATER  (SOFT DRINKS)",
+            "price": "60"
+          },
+          {
+            "id": "863",
+            "name": "SODA",
+            "price": "35"
+           
+          },
+          {
+            "id": "864",
+            "name": "FRESH LIME SODA",
+             "price": "90"
+          },
+          {
+            "id": "865",
+            "name": "RED BULL",
+            "price": "150"
+          },
+          {
+            "id": "866",
+            "name": "CANNED JUICES",
+            "price": "80"
+          }
+        ],
+        "imgKey": "drink"
+      },
+      {
+        "id": "329",
+        "name": "FONDUE",
+        "menu_img":"/assets/foodImg/img4.jpg",  
+        "lineItems": [
+          {
+            "id": "881",
+            "name": "THE ORIGINAL",
+             "price": "590"
+          },
+          {
+            "id": "882",
+            "name": "FONDUE MARGARITA",
+             "price": "630"
+          }
+        ],
+        "imgKey": "cheese-burger"
+      },
+      {
+        "id": "331",
+        "name": "SOUPS",
+        "menu_img":"/assets/foodImg/img6.jpg",
+        "lineItems": [
+          {
+            "id": "883",
+            "name": "TAMATER SHORBA",
+            "price": "180"
+          },
+          {
+            "id": "884",
+            "name": "VEGETABLE SHORBA",
+            "price": "180"
+          },
+          {
+            "id": "885",
+            "name": "MAKAI AUR BADAM KA SHORBA",
+            "price": "180"
+          },
+          {
+            "id": "886",
+            "name": "HOT BASIL POMEDERO SOUP",
+            "price": "180"
+          },
+          {
+            "id": "887",
+            "name": "CREAMY VEGETABLE WITH CHEESE",
+            "price": "180"
+          }
+        ],
+        "imgKey": "soup"
+      },
+      {
+        "id": "333",
+        "name": "SALADS",
+        "menu_img":"/assets/foodImg/img7.jpg",
+        "lineItems": [
+          {
+            "id": "898",
+            "name": "CORN AND PEPPER SALAD",
+            "price": "265"
+          },
+          {
+            "id": "899",
+            "name": "GREEK SALAD",
+            "price": "265"
+          },
+          {
+            "id": "900",
+            "name": "MAISIE SALAD",
+            "price": "265"
+          },
+          {
+            "id": "901",
+            "name": "CLASSIC CAESAR SALAD",
+            "price": "265"
+            
+          },
+          {
+            "id": "902",
+            "name": "GARDEN FRESH SALAD",
+            "price": "170"
+          },
+          {
+            "id": "1325",
+            "name": "CHEF SPECIAL SALAD",
+            "price": "265"
+          }
+        ],
+        "imgKey": "salad"
+      },
+      {
+        "id": "332",
+        "name": "INDIAN CHATS",
+        "menu_img":"/assets/foodImg/img8.jpg",
+        "lineItems": [
+          {
+            "id": "890",
+            "name": "CHINESE BHEL",
+            "price": "190"
+          },
+          {
+            "id": "892",
+            "name": "SHEESLINGS BHEL",
+            "price": "190"
+          },
+          {
+            "id": "893",
+            "name": "SEV PAPDI CHAAT",
+            "price": "190"
+          },
+          {
+            "id": "894",
+            "name": "KARARA PALAK CHAAT",
+            "price": "190"
+          }
+        ],
+        "imgKey": "chaats"
+      },
+      {
+        "id": "334",
+        "name": "BITES",
+        "menu_img":"/assets/foodImg/img9.jpg",
+        "lineItems": [
+          {
+            "id": "908",
+            "name": "FRENCH FRIES",
+            "price": "185"
+          },
+          {
+            "id": "909",
+            "name": "SPINACI SALSA",
+            "price": "200"
+          },
+          {
+            "id": "910",
+            "name": "POTATO WEDGES",
+            "price": "200"
+          },
+          {
+            "id": "911",
+            "name": "PERI-PERI FRIES",
+            "price": "250"
+          },
+          {
+            "id": "912",
+            "name": "BAKED CHEESE FRIES",
+            "price": "280"
+          }
+        ],
+        "imgKey": "french_fries_large"
+      }
+    
+  ]
+
+}

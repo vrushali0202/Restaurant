@@ -1,0 +1,31 @@
+<div *ngIf="myData">
+    <div *ngFor="let food of myData.menu">
+        <div *ngIf="food.id==itemId">
+            <!-- <div class="container mt-1 "> -->
+            <!-- <button class="btn btn-danger m-auto" (click)="goToHome()" >Back</button> -->
+            <div class="foodBox p-2 m-2">
+                <h4 class="text-center m-3" style="  font-family: 'Playfair Display', serif;">{{food.name}}</h4>
+                 <hr>
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 menu-item" *ngFor="let item of food.lineItems">
+                        <img src="{{food.menu_img}}" alt="">
+                        <div class="menu-content">
+                            <div style="width: 180px;">
+                                <span style="color: #cda45e; font-size: 16px;">{{item.name}}</span> <br> 
+                            </div>
+                            <span style="color: #cda45e; font-weight: 700;">{{item.price |currency:'INR'}}</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+    </div>
+</div>
+
+
+
+
+
+

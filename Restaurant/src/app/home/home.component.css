@@ -1,0 +1,71 @@
+.foodBox{
+    border: 1px solid white;
+    /* box-shadow: 0px 10px 10px white ;
+    border-radius: 10px;
+    background-color:whitesmoke;*/
+} 
+
+.title{
+    font-family: 'Playfair Display', serif;
+    color: #cda45e;
+    font-size: 30px;
+}
+
+.menuCard{
+    border-radius: 10px!important;
+    height: 100px;
+    border: 0px !important;
+    position: relative;
+}
+
+.menuName{
+    font-size: 15px;
+    width: 100%;
+    height:20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right: 0;
+    text-align: center;
+    align-items: center;
+    margin:auto ;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.menuImg{
+    height:100%;
+    -webkit-filter: brightness(45%);
+    border-radius: 10px;
+    position: relative;
+}
+
+.menuImg:hover{
+    border: 2px solid white;
+}
+
+
+
+/* RESPONSIVE */
+
+@media only screen and (min-device-width : 500px) {
+    .foodBox{
+        margin: 30px;
+    }
+}
+@media only screen and (min-device-width : 992px) {
+    .menuCard{
+        height: 100px;
+    }
+}
+
+@media only screen and (min-device-width : 1200px) {
+    .menuCard{
+        height: 150px;
+    }
+    .menuName{
+        font-size: 23px;
+    }
+}
+
